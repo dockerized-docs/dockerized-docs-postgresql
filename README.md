@@ -4,9 +4,9 @@
 Dockerzied PostgreSQL documentation for offline use.
 
 # Image description #
-Base image: `httpd:latest`.
-The most current (9.6.1) postgres source code is downloaded.
-PostgreSQL documentation directory (`/postgresql-9.6.1/doc/src/sgml/html`) is linked to httpd `DocumentRoot` (`/usr/local/apache2/htdocs`).
+- Base image: `httpd:latest`.
+- The most current (9.6.1) postgres source code is downloaded.
+- PostgreSQL documentation directory (`/postgresql-9.6.1/doc/src/sgml/html`) is linked to httpd `DocumentRoot` (`/usr/local/apache2/htdocs`).
 
 # How to use this image #
 
