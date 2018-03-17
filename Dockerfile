@@ -31,7 +31,7 @@ WORKDIR /opt/app-root/src/postgresql-$PG_VERSION
 RUN ./configure && \
     make STYLE=website html
  
-RUN mv /opt/app-root/src/postgresql-$PG_VERSION/doc/src/sgml/* /var/www/html/
+RUN mv /opt/app-root/src/postgresql-$PG_VERSION/doc/src/sgml/html/* /var/www/html/
 
 RUN rm -rf /opt/app-root/src/{postgresql-$PG_VERSION.tar.gz, postgresql-$PG_VERSION}
 
